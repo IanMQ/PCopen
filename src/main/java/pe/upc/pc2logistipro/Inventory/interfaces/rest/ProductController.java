@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import pe.upc.pc2logistipro.Inventory.application.internal.commandservices.ProductCommandServiceImpl;
 import pe.upc.pc2logistipro.Inventory.application.internal.queryservices.ProductQueryServiceImpl;
-import pe.upc.pc2logistipro.Inventory.domain.model.aggregates.Product;
 import pe.upc.pc2logistipro.Inventory.domain.model.commands.DeleteProductCommand;
 import pe.upc.pc2logistipro.Inventory.domain.model.queries.GetProductByIdQuery;
 import pe.upc.pc2logistipro.Inventory.interfaces.rest.resources.CreateProductResource;
